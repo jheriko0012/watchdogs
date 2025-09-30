@@ -21,14 +21,16 @@ https://img.shields.io/badge/License-MIT-yellow
 # 1. Clonar repositorio
 git clone https://github.com/jheriko0012/watchdogs.git
 cd watchdogs
-
+```
 # 2. Instalar dependencias
 ```bash
 chmod +x scripts/install.sh
 ./scripts/install.sh
-
+```
 # 3. Ejecutar
+```bash
 python main.py
+```
 🛠️ Herramientas Incluidas
 🔍 OSINT & Reconocimiento
 Sherlock - Busca usuarios en 300+ redes sociales
@@ -60,35 +62,44 @@ Seeker - Geolocalización avanzada
 
 🎮 Uso
 Interfaz Gráfica (Recomendado)
-bash
+```bash
 python main.py
+```
 # Selecciona opción 1
 Descargar Herramientas
-bash
+```bash
 python main.py
+```
 # Selecciona opción 4
 # O directamente:
+```bash
 python scripts/auto_downloader.py
+```
 Modo Consola
-bash
+```bash
 python main.py
+```
 # Selecciona opción 2
 Ejecutar Herramientas Específicas
 🔍 Buscar usuario con Sherlock
-bash
+```bash
 cd downloaded_tools/sherlock
 python sherlock.py username --timeout 10
+```
 🌐 Escanear con Nmap
-bash
+```bash
 nmap -sS 192.168.1.0/24
+```
 💉 Testear SQL Injection
-bash
+```bash
 cd downloaded_tools/sqlmap
 python sqlmap.py -u "http://example.com/page.php?id=1" --batch
+```
 📞 Analizar número con PhoneInfoga
-bash
+```bash
 cd downloaded_tools/phoneinfoga
 python phoneinfoga.py -n +1234567890
+```
 📋 Funciones Disponibles
 En Interfaz Gráfica
 ✅ Dashboard principal con categorías
@@ -196,7 +207,7 @@ Violación de privacidad
 Este software es solo para fines educativos.
 
 🔄 Actualizaciones
-bash
+```bash
 # Actualizar a la última versión
 cd watchdogs
 git pull origin main
@@ -211,14 +222,11 @@ Revisa los issues existentes en GitHub
 Crea un nuevo issue con:
 
 Descripción del problema
-
-Comandos ejecutados
-
-Capturas de pantalla
-
+```
+```bash
 👨‍💻 Autor
 jheriko0012 - GitHub
-
+```
 📄 Licencia
 MIT License - Ver LICENSE para detalles.
 
@@ -228,7 +236,7 @@ text
 ⭐ **Si te gusta el proyecto, dale una estrella en GitHub!**
 🎯 Próximas Características
 Más herramientas integradas
-
+```bash
 Themes personalizables
 
 Modo oscuro/claro
@@ -238,4 +246,4 @@ Exportación de resultados
 Panel de estadísticas
 
 ¿Necesitas ayuda con algo específico? ¡Abre un issue en GitHub!
-
+```
