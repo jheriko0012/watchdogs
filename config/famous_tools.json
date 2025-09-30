@@ -1,0 +1,151 @@
+{
+  "osint": [
+    {
+      "name": "Sherlock",
+      "github": "sherlock-project/sherlock",
+      "description": "Buscar usuarios en 300+ redes sociales",
+      "command": "python sherlock.py {username} --timeout 10",
+      "install_command": "pip install -r requirements.txt",
+      "category": "OSINT",
+      "icon": "\ud83d\udd0d"
+    },
+    {
+      "name": "PhoneInfoga",
+      "github": "sundowndev/phoneinfoga",
+      "description": "An\u00e1lisis avanzado de n\u00fameros telef\u00f3nicos",
+      "command": "python phoneinfoga.py -n {phone}",
+      "install_command": "pip install -r requirements.txt",
+      "category": "OSINT",
+      "icon": "\ud83d\udcde"
+    },
+    {
+      "name": "Recon-ng",
+      "github": "lanmaster53/recon-ng",
+      "description": "Framework completo de reconocimiento",
+      "command": "python recon-ng",
+      "install_command": "pip install -r REQUIREMENTS",
+      "category": "OSINT",
+      "icon": "\ud83c\udf10"
+    },
+    {
+      "name": "TheHarvester",
+      "github": "laramies/theHarvester",
+      "description": "Recolecci\u00f3n de emails, subdominios, IPs",
+      "command": "python theHarvester.py -d {domain} -l 100 -b all",
+      "install_command": "pip install -r requirements.txt",
+      "category": "OSINT",
+      "icon": "\ud83d\udce7"
+    }
+  ],
+  "web_hacking": [
+    {
+      "name": "SQLMap",
+      "github": "sqlmapproject/sqlmap",
+      "description": "Detector y explotador de SQL Injection",
+      "command": "python sqlmap.py -u {url} --batch",
+      "install_command": "",
+      "category": "Web",
+      "icon": "\ud83d\udc89"
+    },
+    {
+      "name": "XSStrike",
+      "github": "s0md3v/XSStrike",
+      "description": "Esc\u00e1ner avanzado de XSS",
+      "command": "python xsstrike.py -u {url}",
+      "install_command": "pip install -r requirements.txt",
+      "category": "Web",
+      "icon": "\ud83d\udee1\ufe0f"
+    },
+    {
+      "name": "Nikto",
+      "description": "Esc\u00e1ner de vulnerabilidades web",
+      "command": "nikto -h {target}",
+      "install_command": "pkg install nikto",
+      "category": "Web",
+      "icon": "\ud83d\udd0d"
+    }
+  ],
+  "network": [
+    {
+      "name": "Nmap",
+      "description": "Esc\u00e1ner de red y puertos",
+      "command": "nmap {target}",
+      "install_command": "pkg install nmap",
+      "category": "Network",
+      "icon": "\ud83c\udf10"
+    },
+    {
+      "name": "Aircrack-ng",
+      "description": "Suite de auditor\u00eda WiFi",
+      "command": "aircrack-ng {file}",
+      "install_command": "pkg install aircrack-ng",
+      "category": "Wireless",
+      "icon": "\ud83d\udce1"
+    }
+  ],
+  "social_engineering": [
+    {
+      "name": "SocialFish",
+      "github": "UndeadSec/SocialFish",
+      "description": "Framework de phishing educativo",
+      "command": "python3 SocialFish.py {username} {password}",
+      "install_command": "chmod +x install.sh && ./install.sh",
+      "category": "Social",
+      "icon": "\ud83c\udfa3"
+    },
+    {
+      "name": "HiddenEye",
+      "github": "DarkSecDevelopers/HiddenEye",
+      "description": "Herramienta avanzada de phishing",
+      "command": "python3 HiddenEye.py",
+      "install_command": "chmod +x install.sh && ./install.sh",
+      "category": "Social",
+      "icon": "\ud83d\udc41\ufe0f"
+    },
+    {
+      "name": "Seeker",
+      "github": "thewhiteh4t/seeker",
+      "description": "Geolocalizaci\u00f3n avanzada",
+      "command": "python3 seeker.py -t manual -k {keyword}",
+      "install_command": "chmod +x install.sh && ./install.sh",
+      "category": "Social",
+      "icon": "\ud83d\udccd"
+    }
+  ],
+  "password_attacks": [
+    {
+      "name": "John The Ripper",
+      "description": "Cracker de contrase\u00f1as",
+      "command": "john {file}",
+      "install_command": "pkg install john",
+      "category": "Password",
+      "icon": "\ud83d\udd11"
+    },
+    {
+      "name": "Hashcat",
+      "description": "Recuperaci\u00f3n avanzada de passwords",
+      "command": "hashcat -m {hash_type} {hash_file}",
+      "install_command": "pkg install hashcat",
+      "category": "Password",
+      "icon": "\u26a1"
+    }
+  ],
+  "forensics": [
+    {
+      "name": "Binwalk",
+      "description": "An\u00e1lisis de firmware y archivos binarios",
+      "command": "binwalk {file}",
+      "install_command": "pkg install binwalk",
+      "category": "Forensics",
+      "icon": "\ud83d\udd0e"
+    },
+    {
+      "name": "Exiftool",
+      "description": "Metadatos de im\u00e1genes y archivos",
+      "command": "exiftool {file}",
+      "install_command": "pkg install exiftool",
+      "category": "Forensics",
+      "icon": "\ud83d\udcf7"
+    }
+  ]
+}
