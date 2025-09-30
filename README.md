@@ -17,12 +17,13 @@ https://img.shields.io/badge/License-MIT-yellow
 🔒 Enfoque 100% ético y educativo
 
 🚀 Instalación Rápida
-bash
+```bash
 # 1. Clonar repositorio
 git clone https://github.com/jheriko0012/watchdogs.git
 cd watchdogs
 
 # 2. Instalar dependencias
+```bash
 chmod +x scripts/install.sh
 ./scripts/install.sh
 
